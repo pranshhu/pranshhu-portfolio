@@ -1,0 +1,29 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "framer-motion": "^11.0.28",
+    "gsap": "^3.12.5",
+    "install": "^0.13.0",
+    "locomotive-scroll": "^5.0.0-beta.11",
+    "next": "14.2.0",
+    "npm": "^10.5.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "sass": "^1.75.0"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.3.12",
+    "@swc/core": "^1.4.13",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.0"
+  }
+}
