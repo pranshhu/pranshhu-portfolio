@@ -12,7 +12,6 @@ import Preloader from '../components/Preloader';
 import Description from '../components/Description';
 import SlidingImages from '../components/SlidingImages';
 import Contact from '../components/Contact';
-import Projects from '../components/Projects';
 
 
 
@@ -79,7 +78,7 @@ export default function Home() {
     <main>
       <div className={styles.main}>
         <Image
-          src="/images/background1.jpeg"
+          src="/images/bg.png"
           fill={true}
           alt="background"
         />
@@ -94,7 +93,6 @@ export default function Home() {
         {isLoading && <Preloader />}
       </AnimatePresence>
       <Description />
-      <Projects />
       <SlidingImages />
       <Contact />
     </main>
