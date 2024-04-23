@@ -5,9 +5,7 @@ import styles from './page.module.css';
 import { useRef, useEffect, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
-import Lenis from '@studio-freight/lenis'
 import { AnimatePresence, useScroll } from 'framer-motion';
-import { projects } from './data';
 import Preloader from '../components/Preloader';
 import Description from '../components/Description';
 import SlidingImages from '../components/SlidingImages';
@@ -93,6 +91,7 @@ export default function Home() {
         {isLoading && <Preloader />}
       </AnimatePresence>
       <Description />
+      
       <SlidingImages />
       <Contact />
     </main>
